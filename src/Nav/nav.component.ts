@@ -5,4 +5,4 @@ import {Component} from "@angular/core";
   templateUrl: './nav.component.html'
 })
 
-export class GpaNav {}
+export class GpaNavComponent {}

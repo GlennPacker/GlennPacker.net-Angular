@@ -1,6 +1,7 @@
 import {Routes} from "@angular/router";
+import {HomeComponent} from "../home/home.Component";
 
-export const routes: Routes = [
+export const AppRoutes: Routes = [
   // {
   //   path: 'clients',
   //   component: ClientComponent,
@@ -21,13 +22,13 @@ export const routes: Routes = [
   //   path: '404',
   //   component: Error404Component
   // },
-  // {
-  //   path: '/home',
-  //   component: HomeComponent
-  // }
-  // {
-  //   path: '',
-  //   redirectTo: '/home',
-  //   pathMatch: 'full'
-  // }
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  }
 ];
